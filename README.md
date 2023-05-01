@@ -9,4 +9,5 @@
 8. Go back to the copy activity → Source → You will see the parameter for the file name. Select the For each loop activity output file name, i.e. @item().name.
 9. In the copy activity → sink, configure the empty destination folder path.
 10. Execute ADF, which will dynamically copy the file from the source to the destination ADLS2 folder.
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9c63fa1-93d6-4e42-9590-c1d3298317df/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/96594057/235419673-d674b385-1a58-4ab3-8540-4fa9fdc3d017.png)
+
