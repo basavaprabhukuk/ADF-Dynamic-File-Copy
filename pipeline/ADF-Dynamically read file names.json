@@ -85,7 +85,13 @@
 							"inputs": [
 								{
 									"referenceName": "copyacticitySource",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"copyactivitysourcefilename": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
