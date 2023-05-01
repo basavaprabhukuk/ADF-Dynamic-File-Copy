@@ -1,0 +1,9 @@
+{
+	"name": "adf-project-2023",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9bbe5332-cbf8-466c-991f-9aaaf20b7ad2",
+		"tenantId": "1906f83c-2b4c-4410-be39-fef9f30b9e10"
+	}
+}
