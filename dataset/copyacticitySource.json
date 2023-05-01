@@ -1,0 +1,37 @@
+{
+	"name": "copyacticitySource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServiceSourceADLS2",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"copyactivitysourcefilename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().copyactivitysourcefilename",
+					"type": "Expression"
+				},
+				"fileSystem": "source-input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
